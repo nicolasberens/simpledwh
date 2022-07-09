@@ -1,7 +1,8 @@
-# SIMPLEQADWH
+# SIMPLE_QA_DWH
 
+This is a simple proof of concept script to generate test data.
 
-This is a small script to prove that a simple DataWareHouse to store measurements of devices at the end of a Production run is feasible in Postgres.
+It simulates a QA test at the end of a production run and stores measurements for devices.
 
 
 We have 3 Tables:
@@ -15,7 +16,7 @@ A Table with the ID and the name of the engineer overseeing the measurement
 
 
 **tests:**
-A Table with the actual tests, it contains 19 measurements in double precision, a timestamp, a serialnumber and the id of the engineer.
+A Table with the actual tests, it contains 19 measurements in double precision and the id of the test device, a timestamp, a serialnumber and the id of the engineer.
 
 
 ## How To use:
