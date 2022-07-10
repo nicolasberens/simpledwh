@@ -25,3 +25,12 @@ A Table with the actual tests, it contains 19 measurements in double precision a
 - adjust the numbers of test you want in `config.py`
 - install dependencies from `requirements.txt`
 - run `create_testdata.py`  **THIS WILL DELETE EXISTING DATA**
+
+
+## visualize.py
+
+This script will create a scatterplot from `testvalue_1` over time with the 95% and 5% percentile drawn in.
+
+Since the generated test data is random and evenly distributed, it does not really provide any good information and should only be used as a proof of concept.
+
+![](scatter.png)

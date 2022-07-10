@@ -1,2 +1,5 @@
 Psycopg2
 faker
+numpy
+matplotlib
+pandas
